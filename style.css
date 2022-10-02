@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: outfit, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    background-color: white;
+    height: 32rem;
+    width: 20rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+#qr-code {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.text {
+    justify-content: space-around;
+    text-align: center;
+}
+
+.text h2 {
+    font-weight: 700;
+    padding: 1rem 0.1rem;
+}
+
+.text p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 1rem 1rem;
+}
+
+.attribution {
+    margin-top: 1.5rem;
+    font-size: 10px;
+}
