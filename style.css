@@ -14,12 +14,13 @@ body {
     align-items: center;
 }
 
-.main-content {
+main {
     background-color: white;
-    height: 32rem;
-    width: 20rem;
+    height: 37rem;
+    max-width: 25rem;
     border-radius: 20px;
     padding: 1rem;
+    margin: 1rem;
 }
 
 #qr-code {
@@ -32,7 +33,7 @@ body {
     text-align: center;
 }
 
-.text h2 {
+.text h1 {
     font-weight: 700;
     padding: 1rem 0.1rem;
 }
@@ -45,6 +46,6 @@ body {
 }
 
 .attribution {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     font-size: 10px;
 }
